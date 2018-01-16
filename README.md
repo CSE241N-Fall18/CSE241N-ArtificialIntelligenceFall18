@@ -10,7 +10,7 @@ Course Tutors/Teaching Assistants:
 * ```Mayank```, Senior Undergraduate, Department of Computer Science and Enginnering, IIT(BHU).
 * ```Shubham Chaudhary```, Senior Undergraduate, Department of Computer Science and Enginnering, IIT(BHU).
 * ```Shivam Garg```*, Senior Undergraduate, Department of Computer Science and Enginnering, IIT(BHU).
-* ```Manish Kumar``` Singh, Senior Undergraduate, Department of Computer Science and Enginnering, IIT(BHU).
+* ```Manish Kumar Singh```, Senior Undergraduate, Department of Computer Science and Enginnering, IIT(BHU).
 * ```Avijit Thawani```*, Senior Undergraduate, Department of Computer Science and Enginnering, IIT(BHU).
 
 The entries marked with * are the tutors who are in their first year of Masters study while pursuing their integrated dual degree programs at IIT(BHU).
