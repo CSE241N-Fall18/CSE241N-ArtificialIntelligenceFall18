@@ -1,0 +1,1 @@
+gpg --output output.gpg --encrypt --recipient mayank.cse14@iitbhu.ac.in output.txt
