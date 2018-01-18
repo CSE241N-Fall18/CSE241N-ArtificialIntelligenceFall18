@@ -1,3 +1,5 @@
 .gitsecret/keys/random_seed
 .gitsecret/testfile.txt
 testfile.txt
+.DS_Store
+*/.DS_Store
