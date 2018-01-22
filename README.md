@@ -6,11 +6,11 @@ Course Lecturer: ```Prof. Anil Kumar Singh```, Department of Computer Science an
 ---------
 
 Course Tutors/Teaching Assistants:
-* ```Pranav Goel```, Senior Undergraduate, Department of Computer Science and Enginnering, IIT(BHU).
-* ```Mayank```, Senior Undergraduate, Department of Computer Science and Enginnering, IIT(BHU).
-* ```Shubham Chaudhary```, Senior Undergraduate, Department of Computer Science and Enginnering, IIT(BHU).
-* ```Shivam Garg```*, Senior Undergraduate, Department of Computer Science and Enginnering, IIT(BHU).
-* ```Manish Kumar Singh```, Senior Undergraduate, Department of Computer Science and Enginnering, IIT(BHU).
-* ```Avijit Thawani```*, Senior Undergraduate, Department of Computer Science and Enginnering, IIT(BHU).
+* ```Pranav Goel```, Senior Undergraduate, Department of Computer Science and Engineering, IIT(BHU).
+* ```Mayank```, Senior Undergraduate, Department of Computer Science and Engineering, IIT(BHU).
+* ```Shubham Chaudhary```, Senior Undergraduate, Department of Computer Science and Engineering, IIT(BHU).
+* ```Shivam Garg```*, Senior Undergraduate, Department of Computer Science and Engienering, IIT(BHU).
+* ```Manish Kumar Singh```, Senior Undergraduate, Department of Computer Science and Engineering, IIT(BHU).
+* ```Avijit Thawani```*, Senior Undergraduate, Department of Computer Science and Engineering, IIT(BHU).
 
 The entries marked with * are the tutors who are in their first year of Masters study while pursuing their integrated dual degree programs at IIT(BHU).
