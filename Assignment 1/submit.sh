@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Function to show usage
 function usage() {
@@ -64,22 +64,26 @@ for file in "${SECURE_FILE_LIST[@]}"; do
 done
 
 rm -rf .submit
+
+# Begin submitting the assignment
+cd .submit
+git init
+git remote add origin "$GIT_URL"
+git checkout -b $ROLL_NO
+git pull origin $ROLL_NO
+
 mkdir -p "$ASSIGNMENT_DIR"
 
 # Move the solution files to the repo
 cp -r * "$ASSIGNMENT_DIR/"
-rm "$ASSIGNMENT_DIR/submit.sh*" # Why submit myself?
+rm "$ASSIGNMENT_DIR/submit.sh" # Why submit myself?
 
 # Remove the unsecure versions of all secure files
 for file in "${SECURE_FILE_LIST[@]}"; do
     rm "$ASSIGNMENT_DIR/$file"
 done
 
-cd .submit
-git init
-git remote add origin "$GIT_URL"
-git checkout -b $ROLL_NO
-git pull origin $ROLL_NO
+
 git add .
 git commit -m "Submitting Assignment $ASSIGNMENT_NO for $ROLL_NO."
 git push origin $ROLL_NO
