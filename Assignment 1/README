@@ -1,0 +1,53 @@
+Part-of-Speech Tagging using HMMs and Viterbi algorithm
+
+
+Files given -
+	test_full_unlabeled - text file containing the full sets of untagged sentences. The words in this file need to be tagged by your code.
+	test_public_labeled - a portion of the above file having labels, to compute accuracy on a small subset of the actual test set so as to give an idea of successful execution of code.
+	train - the full training file, with each word tagged with the correct label/tag.
+
+NOTE: No need to worry about reading any of the above files, as it is already done in the code.
+
+	submission.py - python starter code, needs to be filled in the appropriate places for completing the assignment. 
+			Do not modify any of the helper functions or main. Each such function is marked by “DO NOT CHANGE!” comment.
+			Fill code in the places indicated. Read the comments to understand what is required by the functions in terms of the inputs you need to use, and the kind of output needed.
+			All comments are there to help you! The completed code needs to be submitted (with the file name intact).
+			We have designed the assignment with Bigram HMMs in mind - but feel free to try Trigrams/higher grams as well in the portion you code.
+
+
+DELIVERABLES - 
+
+You have to submit the following two files (with the exact names written below) - 
+
+submission.py - This is the completed code which runs the Viterbi algorithm. On successful execution, the code will display the accuracy on the public test set, and a message indicating that the output file (below) has been generated.
+
+output - This contains the predicted tags for all the words in the test set. Do not worry about the format - this writing part has been done for you. Just make sure this file is generated and submit it. 
+
+
+
+POS Tagset used in this assignment - 
+
+Tag	Description
+C	Coordinating conjunction or Cardinal number
+D	Determiner
+E	Existential there
+F	Foreign word
+I	Preposition or subordinating conjunction
+J	Adjective
+L	List item marker (a., b., c., …) (rare)
+M	Modal (could, would, must, can, might …)
+N	Noun
+P	Pronoun or Possessive ending ('s) or Predeterminer
+R	Adverb or Particle
+S	Symbol, mathematical (rare)
+T	The word to
+U	Interjection (rare)
+V	Verb
+W	wh-word (question word)
+###	Boundary between sentences
+,	Comma
+.	Period
+:	Colon, semicolon, or dash
+-	Parenthesis
+'	Quotation mark
+$	Currency symbol
