@@ -1,0 +1,51 @@
+                              Assignment 2
+
+----------------------------------------------------------------------------
+         Artificial Intelligence (CSE-241N), IIT (BHU), Varanasi
+                              3rd Feb 2018
+----------------------------------------------------------------------------
+
+In this assignment, you'll be working to implement a basic linear regression model.
+This model will be used to fit 2D data. The fits would be visualized. So basically
+there would be some points in the 2D plane. You would find a curve that passes
+through most of them (closely fits) them. Much like you used to do in your school
+Physics experiments.
+
+Working files:
+-------------
+You will be restricted to work with 'models.py' and 'linear_regression.ipynb'.
+Once you work through the 'linear_regression.ipynb', a file named 'hyper_param.json'
+would be generated.
+
+Data:
+----
+Data is 2D, and is synthetically generated. You can go through 'utils.py' for details.
+
+Actual Work:
+-----------
+- Complete some functions related to linear regression (predicting values, loss
+  function and gradient descent)
+- Feature extraction, pertaining to different problems.
+- Tuning various parameters of the models in order to achieve the best results.
+
+Steps:
+---------
+0. Open 'linear_regression.ipynb' via Jupyter Notebook.
+1. Work through the 'linear_regression.ipynb' and follow the instructions therein.
+2. Run your solution by running 'check_submission.py'. This will give you the test
+   accuracy of your solutions on the four datasets used: Linear, Polynomial, Periodic
+   and unknown. We'll judge your solutions by running this same file.
+3. You need to submit the files: 'models.py' and 'hyper_param.json'.
+
+NOTE: We will be testing your results by running 'check_submission.py' with the
+      help of 'models.py' and 'hyper_param.json'. We will run train your weights for a
+      fixed 200 epochs. So take care that you set your learning rates accordingly.
+
+Hint File:
+---------
+There is also a hint.pdf, that contains the mathematical workout for linear
+regression's forward (prediction) and backward (gradient descent) passes. Try to
+complete the assignment without looking at it, but do consult it if you get stuck.
+
+
+All the best.
