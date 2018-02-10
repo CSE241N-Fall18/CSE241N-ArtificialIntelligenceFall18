@@ -57,7 +57,6 @@ for epoch in range(no_epochs):
 feat_test = models.calc_features(x_test, choice=feat_type, param=param)
 y_pred_test = learning_model.forward(feat_test)
 loss_test_linear = utils.loss(y_test, y_pred_test)  
-print('linear: ', loss_test_linear)
 
 
 
@@ -99,7 +98,7 @@ for epoch in range(no_epochs):
 feat_test = models.calc_features(x_test, choice=feat_type, param=param)
 y_pred_test = learning_model.forward(feat_test)
 loss_test_poly = utils.loss(y_test, y_pred_test)  
-print('poly: ', loss_test_poly)
+
 
 
 #----------------------------------------------------------------------
@@ -144,7 +143,7 @@ for epoch in range(no_epochs):
 feat_test = models.calc_features(x_test, choice=feat_type, param=param)
 y_pred_test = learning_model.forward(feat_test)
 loss_test_periodic = utils.loss(y_test, y_pred_test)  
-print('periodic: ', loss_test_periodic)
+
 
 
 
@@ -190,7 +189,14 @@ for epoch in range(no_epochs):
 feat_test = models.calc_features(x_test, choice=feat_type, param=param)
 y_pred_test = learning_model.forward(feat_test)
 loss_test_unknown = utils.loss(y_test, y_pred_test)  
+
+
+
+print('linear: ', loss_test_linear)
+print('poly: ', loss_test_poly)
+print('periodic: ', loss_test_periodic)
 print('unknown: ', loss_test_unknown)
+
 
 
 
