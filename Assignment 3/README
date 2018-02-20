@@ -1,0 +1,46 @@
+                              Assignment 3
+
+----------------------------------------------------------------------------
+         Artificial Intelligence (CSE-241N), IIT (BHU) Varanasi
+                              11th Feb 2018
+----------------------------------------------------------------------------
+
+In this assignment, you will implement binary classification for text documents using Logistic Regression. The first step of the assignment will be to calculate features from the text document (Bag of words and Tf-Idf), then you shall implement Logistic Regression using numpy. Finally you will train your model on your features.  
+
+Working files:
+-------------
+You will be restricted to work with 'model.py', 'feature.py' and 'regularized_logistic_regression.ipynb'.
+
+Once you work through the 'regularized_logistic_regression.ipynb', a file named 'hyper_param.json' would be generated. That will be your submission, along with the code in 'model.py' and 'feature.py'.
+
+Data:
+----
+Data is text documents. You can download the 'train_data.zip' from the URL "https://drive.google.com/open?id=1HgBf_Vl2L5d_q8qYI4SPJtUiXjBoesra".
+
+Actual Work:
+-----------
+- Complete some functions related to logistic regression (predicting values, loss
+  function and gradient descent)
+- Feature extraction, pertaining to text in the form of Bag of words and Tf-Idf model.
+- Tuning various parameters of the models in order to achieve the best results on validations set.
+
+Steps:
+---------
+0. Open 'regularized_logistic_regression.ipynb' via Jupyter Notebook.
+1. Work through the 'regularized_logistic_regression.ipynb' and follow the instructions therein.
+2. Tune your hyper parameters wisely, they will be stored in a file 'hyper_param.json'. We will run your submissions on our machines using those hyper parameters and judge your submission according to scores on test data.
+3. You need to submit the files: 'model.py', 'feature.py', and 'hyper_param.json'. Do that by running './submit.sh YOUR_ROLL_NO' from the assignment folder.
+
+NOTE: We will be testing your results by running 'check_submission.py' with the
+      help of 'models.py' and 'hyper_param.json'. We will run train your weights for a
+      fixed 200 epochs. So take care that you set your learning rates accordingly.
+
+Hint File:
+---------
+There is also a 'hint.pdf', that contains the mathematical workout for logistic
+regression's forward (prediction) and backward (gradient descent) passes. Try to
+complete the assignment without looking at it, but do consult it if you get stuck.
+
+Also, 'hint.pdf' contains formulation of Bag of words and Tf-Idf models. You should refer to it to understand the mathematical details behind the models, it may also help you write  the code for them.
+
+All the best.
