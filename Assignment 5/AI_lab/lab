@@ -1,0 +1,19 @@
+Each lab: 10pts
+working good code: 8-10
+working bad code: 5-7
+buggy: 3
+template: 1
+no submission: 0
+
+beyond deadline: 5 then 2.5 then 0
+
+3 latedays allowed in whole sem
+
+1 lateday for each assgn for top 10 students
+
+
+download the mayank.gpg
+chmod +x submit.sh
+./submit.sh 16075044
+
+ML
