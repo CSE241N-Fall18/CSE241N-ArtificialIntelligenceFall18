@@ -4,7 +4,6 @@ import pickle
 
 graphfile = open('graphdata.pkl', 'rb')
 g = pickle.load(graphfile)
-print(g.graph)
 bfs_list = list(g.bfs_paths(1, 8))
 dfs_list = list(g.dfs_paths(1, 11))
 print (len(dfs_list))
