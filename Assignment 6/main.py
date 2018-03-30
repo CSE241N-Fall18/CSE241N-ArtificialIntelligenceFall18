@@ -13,13 +13,12 @@ pickle.dump(bfs_list, bfs_pickle)
 dfs_pickle = open('dfs_result.pkl', 'wb')
 pickle.dump(dfs_list, dfs_pickle)
 
-# print (bfs_list)
-# print (len(bfs_list))
-# print (dfs_list)
-# print (len(dfs_list))
+print (bfs_list)
+print (len(bfs_list))
+print (dfs_list)
+print (len(dfs_list))
 # for key,value in g.graph.items():
 # 	print(key, " : ", value)
-
 # for i in range(12):
 # 	for j in range(12):
 # 		try:
