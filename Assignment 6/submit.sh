@@ -21,7 +21,7 @@ if [ -z $1 ] || [ $1 == "-h" ]; then
 fi
 
 # Useful variables
-SECURE_FILE_LIST=("bfs_result.pkl" "bfs_result.pkl" "Graph.py") # Fill this based on the assignment
+SECURE_FILE_LIST=("bfs_result.pkl" "dfs_result.pkl" "Graph.py") # Fill this based on the assignment
 DELETE_FILE_LIST=("graphdata.pkl") # Fill this list based on the assignment
 ROLL_NO=$1
 ASSIGNMENT_NO=6 # Fill this based on the assignment
