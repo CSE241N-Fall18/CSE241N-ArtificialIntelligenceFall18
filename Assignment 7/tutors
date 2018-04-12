@@ -1,0 +1,4 @@
+heapq
+heapq(l,(4,obj))
+elem = heapq.heappop(l)[1]
+from collections import deque
