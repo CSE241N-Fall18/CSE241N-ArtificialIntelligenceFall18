@@ -1,5 +1,5 @@
 # CSE241N-ArtificialIntelligenceFall18
-Official Repository for all the lab submissions of the course CSE241N-AI taken by undergraduate students at IIT(BHU), Varanasi during the Fall of 2018. The course is being taken majorly by second year undergraduate students of Computer Science and Engineering. Approximate number of students crediting the course is close to 90.
+Official Repository for all the lab submissions of the course CSE241N-AI taken by undergraduate students at IIT(BHU), Varanasi during Spring 2018. The course is being taken majorly by second year undergraduate students of Computer Science and Engineering. Approximate number of students crediting the course is close to 90.
 
 Course Lecturer: ```Prof. Anil Kumar Singh```, Department of Computer Science and Engineering, IIT(BHU).<br/>
 
